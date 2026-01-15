@@ -13,7 +13,7 @@
   NODE_VERSION = "18"
   
   # React environment variables
-  REACT_APP_API_URL = "https://shrm-server-production.up.railway.app/api"
+  REACT_APP_API_URL = "https://shrm-server-web-production.up.railway.app/api"
   REACT_APP_ENVIRONMENT = "production"
   GENERATE_SOURCEMAP = "false"
   CI = "true"
