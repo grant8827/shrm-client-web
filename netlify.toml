@@ -3,7 +3,7 @@
   command = "npm run build"
   
   # Publish directory - React apps build to 'build' folder, NOT '.next'
-  publish = "client/build"
+  publish = "build"
   
   # Base directory (if different from root)
   base = "client"
