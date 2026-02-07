@@ -216,10 +216,10 @@ const Header: React.FC = () => {
             </li>
           </ul>
           
-          <div className="quick-contact">
+          {/* <div className="quick-contact">
             <p>24/7 Crisis Support</p>
             <a href="tel:5551234567">(555) 123-4567</a>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>

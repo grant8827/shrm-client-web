@@ -346,7 +346,7 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Crisis Notice */}
-        <div className="animate-fade-in">
+       {/*} <div className="animate-fade-in">
           <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-3xl p-8 md:p-10">
             <div className="flex items-start gap-4 mb-6">
               <div className="text-4xl animate-pulse-slow">🚨</div>
@@ -394,7 +394,7 @@ const Contact: React.FC = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
