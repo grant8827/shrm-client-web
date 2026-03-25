@@ -155,7 +155,7 @@ const About: React.FC = () => {
                     Faith-Based Counselors
                   </span>
                   <span className="px-4 py-2 bg-shrm-secondary/10 text-shrm-primary rounded-full text-sm font-medium">
-                    Trained professionals 
+                    Trained Professionals
                   </span>
                   <span className="px-4 py-2 bg-shrm-secondary/10 text-shrm-primary rounded-full text-sm font-medium">
                     Experienced Therapists
