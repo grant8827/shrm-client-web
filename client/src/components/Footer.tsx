@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <div className="contact-info">
               {/*<p><strong>Phone:</strong> (555) 123-4567</p>*/}
               
-              <p><strong>Email:</strong> info@safehavenrestorationministries.com</p>
+              <p><strong>Email:</strong> admin@safehavenrestorationministries.com</p>
               <Link to="/appointments" className="contact-link">Start Your Journey</Link>
             </div>
           </div>

@@ -642,7 +642,7 @@ const Appointments: React.FC = () => {
                 </div>*/}
                 <div>
                   <p className="text-neutral-200 text-sm">Email</p>
-                  <p className="font-bold">info@safehavenrestorationministries.com</p>
+                  <p className="font-bold">admin@safehavenrestorationministries.com</p>
                 </div>
                 <div>
                   <p className="text-neutral-200 text-sm">Hours</p>

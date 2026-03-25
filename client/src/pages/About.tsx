@@ -140,10 +140,10 @@ const About: React.FC = () => {
                   <span className="text-shrm-primary font-semibold text-sm">OUR TEAM</span>
                 </div>
                 <h2 className="text-4xl font-bold text-shrm-primary mb-6">
-                  Experienced, Licensed Professionals
+                  Experienced, Faith-Based Professional Counselors
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Our team consists of Experienced professional counselors who are committed to 
+                  Our team consists of experienced, faith-based professional counselors who are committed to 
                   both their faith and their profession.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -152,13 +152,13 @@ const About: React.FC = () => {
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <span className="px-4 py-2 bg-shrm-secondary/10 text-shrm-primary rounded-full text-sm font-medium">
-                    professional Counselors
+                    Faith-Based Counselors
                   </span>
                   <span className="px-4 py-2 bg-shrm-secondary/10 text-shrm-primary rounded-full text-sm font-medium">
-                    Faith-Based
+                    Trained professionals 
                   </span>
                   <span className="px-4 py-2 bg-shrm-secondary/10 text-shrm-primary rounded-full text-sm font-medium">
-                    Experienced
+                    Experienced Therapists
                   </span>
                 </div>
               </div>
