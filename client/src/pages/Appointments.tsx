@@ -352,6 +352,7 @@ const Appointments: React.FC = () => {
                       <option value="anxiety">Anxiety</option>
                       <option value="depression">Depression</option>
                       <option value="relationship-issues">Relationship Issues</option>
+                      <option value="marriage-counseling">Marriage Counseling</option>
                       <option value="trauma">Trauma/PTSD</option>
                       <option value="grief">Grief/Loss</option>
                       <option value="stress">Stress Management</option>
