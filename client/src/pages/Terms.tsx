@@ -27,7 +27,7 @@ const Terms: React.FC = () => {
               1. Acceptance of Terms
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              By accessing or using the Safe Haven Restoration Ministries ("SHRM") website located
+              By accessing or using the Safe Haven Restoration Ministries (SHRM) website located
               at this address, you agree to be bound by these Terms of Service. If you do not agree
               to these terms, please do not use this website. These terms apply to all visitors,
               users, and others who access or use the site.
@@ -48,7 +48,7 @@ const Terms: React.FC = () => {
           </section>
 
           {/* Not a Crisis Service */}
-          <section>
+          {/*<section>
             <div className="bg-red-50 border border-red-200 rounded-2xl p-6">
               <h2 className="text-2xl font-bold text-red-700 mb-4 pb-2">
                 3. Not a Crisis or Emergency Service
@@ -67,7 +67,7 @@ const Terms: React.FC = () => {
                 <li>Go to your nearest emergency room</li>
               </ul>
             </div>
-          </section>
+          </section>*/}
 
           {/* Use of Website */}
           <section>

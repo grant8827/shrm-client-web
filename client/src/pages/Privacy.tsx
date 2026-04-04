@@ -28,7 +28,7 @@ const Privacy: React.FC = () => {
               1. Introduction
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Safe Haven Restoration Ministries ("SHRM", "we", "our", or "us") is committed to
+              Safe Haven Restoration Ministries (SHRM) is committed to
               protecting your privacy. This Privacy Policy explains how we collect, use, disclose,
               and safeguard your information when you visit our website or use our services. As a
               faith-based counseling organization, we hold your personal and sensitive information
