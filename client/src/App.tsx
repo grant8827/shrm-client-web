@@ -7,6 +7,8 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Appointments from './pages/Appointments';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/appointments" element={<Appointments />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
         <Footer />
