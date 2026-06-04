@@ -17,7 +17,7 @@ const getApiBaseUrl = () => {
   
   return isDevelopment 
     ? 'http://localhost:5001/api'      // Local development
-    : 'https://shrm-server-production.up.railway.app/api'; // Production
+    : 'https://shrm-server-web-production.up.railway.app/api'; // Production
 };
 ```
 
@@ -32,7 +32,7 @@ const getApiBaseUrl = () => {
 
 2. **`.env.production` (Production)**
    ```
-   REACT_APP_API_URL=https://shrm-server-production.up.railway.app/api
+  REACT_APP_API_URL=https://shrm-server-web-production.up.railway.app/api
    REACT_APP_API_TIMEOUT=15000
    REACT_APP_ENVIRONMENT=production
    ```

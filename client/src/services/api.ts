@@ -17,7 +17,7 @@ const getApiBaseUrl = () => {
     return 'http://localhost:5001/api';
   } else {
     // Production environment
-    return 'https://shrm-server-production.up.railway.app/api';
+    return 'https://shrm-server-web-production.up.railway.app/api';
   }
 };
 

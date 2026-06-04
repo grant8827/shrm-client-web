@@ -12,4 +12,4 @@ CI = "true"
 
 # Explicitly tell Railway this is a React app
 BUILD_PATH = "./build"
-REACT_APP_API_URL = "https://shrm-server-production.up.railway.app/api"
+REACT_APP_API_URL = "https://shrm-server-web-production.up.railway.app/api"

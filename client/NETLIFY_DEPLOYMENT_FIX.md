@@ -14,7 +14,7 @@ React apps build to a `build/` directory, not `.next/`.
 
 [build.environment]
   NODE_VERSION = "18"
-  REACT_APP_API_URL = "https://shrm-server-production.up.railway.app/api"
+  REACT_APP_API_URL = "https://shrm-server-web-production.up.railway.app/api"
 ```
 
 ### 2. **React Router Support**
@@ -36,7 +36,7 @@ npm run build    # Creates 'build/' directory
 3. **Base Directory**: Leave empty (or `client` if subfolder)
 
 ### Environment Variables:
-- `REACT_APP_API_URL`: `https://shrm-server-production.up.railway.app/api`
+- `REACT_APP_API_URL`: `https://shrm-server-web-production.up.railway.app/api`
 - `NODE_VERSION`: `18`
 - `CI`: `true`
 
