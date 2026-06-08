@@ -99,8 +99,8 @@ const Appointments: React.FC = () => {
       const response = await apiService.createAppointment(formData);
       console.log('Appointment submitted:', response);
       
-      setSubmitMessage(response.message || 'Thank you! Your appointment request has been submitted successfully. We will contact you within 24 hours to confirm your appointment.');
-      showNotification('Appointment request submitted successfully!', 'success');
+      setSubmitMessage(response.message || 'Please check your email and click the confirmation button. Your appointment request will be sent after your email is confirmed.');
+      showNotification('Please check your email to confirm your appointment request.', 'success');
       
       // Reset form
       setFormData({
@@ -142,7 +142,7 @@ const Appointments: React.FC = () => {
             Schedule Your Counseling Appointment
           </h1>
           <p className="text-lg md:text-xl text-neutral-100 max-w-3xl mx-auto">
-            Take the first step toward healing and restoration. Complete the form below and we'll contact you within 24 hours to confirm your session details.
+            Take the first step toward healing and restoration. Complete the form below, then confirm your email so we can send your request to our team.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ const Appointments: React.FC = () => {
           {/* Main Form - 2/3 width */}
           <div className="lg:col-span-2">
             {submitMessage && (
-              <div className={`mb-6 p-4 rounded-xl ${submitMessage.includes('Thank you') ? 'bg-green-50 border-l-4 border-green-500 text-green-800' : 'bg-red-50 border-l-4 border-red-500 text-red-800'}`}>
+              <div className={`mb-6 p-4 rounded-xl ${submitMessage.includes('Thank you') || submitMessage.includes('Please check your email') ? 'bg-green-50 border-l-4 border-green-500 text-green-800' : 'bg-red-50 border-l-4 border-red-500 text-red-800'}`}>
                 <p className="font-semibold">{submitMessage}</p>
               </div>
             )}
